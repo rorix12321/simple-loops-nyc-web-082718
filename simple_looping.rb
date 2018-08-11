@@ -13,8 +13,8 @@ def loop_iterator(number_of_times)
 end
 
 def times_iterator(number_of_times)
-  7.times do
-    puts "#{phrase}"
+  number_of_times.times do
+    puts phrase
   end
   phrase = "Welcome to Flatiron School's Web Development Course!"
 
