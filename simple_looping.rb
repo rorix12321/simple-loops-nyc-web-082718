@@ -25,11 +25,9 @@ def while_iterator(number_of_times)
   loop do
     counter += 1
     puts phrase
-    if counter >= number_of_times
+    if counter == number_of_times
       break
   end
-  # code your solution here using the "while" keyword
-  # hint: user a counter to tell the while loop when to stop!
 end
 
 def until_iterator(number_of_times)
